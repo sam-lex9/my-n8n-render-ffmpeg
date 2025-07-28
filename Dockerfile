@@ -3,7 +3,7 @@
 # Check Docker Hub (https://hub.docker.com/r/n8nio/n8n/tags) for available tags.
 # As of current date (July 2025), a very recent version might be something like 1.x.y.
 # For example, if 1.37.2 was recent, you might pick 1.37.2 or look for the latest stable on Docker Hub.
-FROM n8nio/n8n:1.37.2 # <-- REPLACE with your desired specific n8n version!
+FROM n8nio/n8n:1.37.2
 
 # Switch to root user to install system packages like FFmpeg.
 USER root
